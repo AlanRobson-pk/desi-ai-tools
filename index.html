@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desi AI Tools - Discover the Best AI Tools for Desis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-icon">🤖</span>
+                        <span>Desi AI Tools</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="#categories">Categories</a>
+                    <a href="#featured">Featured</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="about.html">About</a>
+                </div>
+                <div class="nav-actions">
+                    <button id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="btn btn-secondary" id="submit-tool">Submit Tool</button>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Discover the Best AI Tools for Desis</h1>
+                    <p class="subtitle">Curated collection of free and premium AI tools to boost your productivity</p>
+                    
+                    <div class="search-container">
+                        <div class="search-box">
+                            <input type="text" placeholder="Search AI tools...">
+                            <button class="search-btn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="quick-filters">
+                            <button class="filter-btn active">All</button>
+                            <button class="filter-btn">Free</button>
+                            <button class="filter-btn">Premium</button>
+                            <button class="filter-btn">New</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1677442135136-760c813a743e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1280&q=80" alt="AI Technology">
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-tools" id="featured">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured AI Tools</h2>
+                    <a href="#" class="see-all">See All</a>
+                </div>
+                
+                <div class="tools-grid">
+                    <!-- Tool cards will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="categories" id="categories">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Browse by Category</h2>
+                    <p>Find the perfect AI tool for your needs</p>
+                </div>
+                
+                <div class="categories-grid">
+                    <a href="category.html?category=text" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-font"></i>
+                        </div>
+                        <h3>Text & Writing</h3>
+                        <p>AI writers, paraphrasing, summarization</p>
+                    </a>
+                    
+                    <a href="category.html?category=image" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3>Image Generation</h3>
+                        <p>AI art, photo editing, design tools</p>
+                    </a>
+                    
+                    <a href="category.html?category=video" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Video & Audio</h3>
+                        <p>Editing, generation, enhancement</p>
+                    </a>
+                    
+                    <a href="category.html?category=code" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Code & Development</h3>
+                        <p>AI coding assistants, debugging</p>
+                    </a>
+                    
+                    <a href="category.html?category=productivity" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Productivity</h3>
+                        <p>Task automation, scheduling, email</p>
+                    </a>
+                    
+                    <a href="category.html?category=marketing" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Marketing</h3>
+                        <p>SEO, social media, content creation</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Updated with AI Trends</h2>
+                    <p>Subscribe to our newsletter for weekly AI tool recommendations and tutorials</p>
+                    
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="logo">
+                        <a href="index.html">
+                            <span class="logo-icon">🤖</span>
+                            <span>Desi AI Tools</span>
+                        </a>
+                    </div>
+                    <p>Curated directory of the best AI tools for the South Asian community.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Text & Writing</a></li>
+                        <li><a href="#">Image Generation</a></li>
+                        <li><a href="#">Video & Audio</a></li>
+                        <li><a href="#">Code & Dev</a></li>
+                        <li><a href="#">Productivity</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Submit a Tool</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">AI Glossary</a></li>
+                        <li><a href="#">Tool Comparisons</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Free Courses</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Desi AI Tools. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
